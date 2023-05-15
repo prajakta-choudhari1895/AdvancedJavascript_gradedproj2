@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+        #outerBox{
+            position: absolute;
+            left: 35%;
+            top: 20%;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+            background-color: rgba(255, 251, 0, 0.705);
+            padding: 5%;
+        }
+        #password, #username{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            font-size: x-large;
+        }
+        #login{
+            position: relative;
+            left: 40%;
+            border-radius: 5px;
+            font-size: x-large;
+            background-color: yellowgreen;
+        }
+        #login:active{
+            background-color: azure;
+        }
+        #error{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <section id="outerBox">
+        <p id="error"></p>
+        <form>
+            <input type="text" id="username" placeholder="User Name"> <br>
+            <input type="password" id="password" placeholder="Password"><br>
+            <input type="button" id="login" onclick="validate()" value="Login">
+        </form>
+    </section>
+    <script src="Login.js"></script>
+</body>
+</html>

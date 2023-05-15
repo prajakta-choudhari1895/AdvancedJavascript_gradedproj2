@@ -1,0 +1,102 @@
+button, button > input {
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resume {
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.resume-header {
+    display: block;
+    text-align: center;
+    background-color: aqua;
+}
+
+#name {
+    padding-top: 50px;
+    margin: 0;
+}
+
+.appliedFor {
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.heading-label {
+    background-color: lightpink;
+    padding: 10px;
+}
+
+.applicant-info {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 10px;
+    grid-gap: 50px;
+}
+
+.personal-info > div{
+    text-align: right;
+}
+
+.personal-info-label, .tech-info-label, .hobby-info-label {
+    background-color: darkgray;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+
+#search-result-div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#searchresults {
+    list-style-type: none;
+}
+
+.search-box-div {
+    text-align: center;
+    margin: auto;
+}
+
+#searchbox {
+    width: 500px;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.resume {
+    border: 2px solid black;
+}
+
+#show-resume {
+    display: inline;
+}
+
+.experience-info > h3{
+    font-size: 2rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.searchgrid {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#search-results {
+    text-align: -webkit-center;
+}
+
+#search-results > li {
+    list-style: none;
+}
